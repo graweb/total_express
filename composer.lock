@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b5dd4b309a31667aa77e57164e83aa6",
+    "content-hash": "80d2208d719095626a39b3c61630b7e3",
     "packages": [
         {
             "name": "brick/math",
@@ -642,6 +642,64 @@
                 }
             ],
             "time": "2024-07-20T21:45:45+00:00"
+        },
+        {
+            "name": "graweb/apidoc",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/graweb/apidoc.git",
+                "reference": "6778cd8e707a6da5adf5216b823ac3a672c3cef4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/graweb/apidoc/zipball/6778cd8e707a6da5adf5216b823ac3a672c3cef4",
+                "reference": "6778cd8e707a6da5adf5216b823ac3a672c3cef4",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": ">=9.0",
+                "php": ">=8.1"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Graweb\\Apidoc\\ApiDocServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Graweb\\Apidoc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gustavo Grativol",
+                    "email": "graweb1@gmail.com",
+                    "homepage": "https://github.com/graweb",
+                    "role": "Developer"
+                }
+            ],
+            "description": "API Documentation",
+            "homepage": "https://github.com/graweb/apidoc",
+            "keywords": [
+                "apidoc",
+                "graweb",
+                "laravel",
+                "routes"
+            ],
+            "support": {
+                "issues": "https://github.com/graweb/apidoc/issues",
+                "source": "https://github.com/graweb/apidoc/tree/master"
+            },
+            "time": "2024-12-24T14:22:28+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -8142,7 +8200,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "graweb/apidoc": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
