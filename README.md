@@ -28,7 +28,7 @@ Verifique se o Docker está instalado em sua máquina
 
 ## Extra
 - Instalei um plugin chamado APIDOC que desenvolvi para documentar a API. Para acessar basta colocar a seguinte url ```localhost/apidoc```
-- Anexei o arquivo do postman para facilitar os testes
+- Anexei o arquivo (TOTAL EXPRESS.postman_collection) do postman para facilitar os testes
 
 ## Usuários de teste
 
