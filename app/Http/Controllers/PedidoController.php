@@ -22,8 +22,6 @@ class PedidoController extends Controller
      */
     public function index(Request $request): JsonResponse
     {
-        $value = Cache::get('key');
-
         $pedidos = Pedido::with(['produto' => function ($query) {
             $query->select('produtos.*')->withPivot(['quantidade', 'subtotal']);
         }])
